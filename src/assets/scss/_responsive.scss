@@ -1,0 +1,136 @@
+// mui breakpoints
+
+@media screen and (max-width: 1920px) {
+}
+@media screen and (max-width: 1200px) {
+  .login {
+    & .login-form {
+      height: 100vh !important;
+      & .login-field {
+        margin: 0 auto !important;
+      }
+      & .login-button {
+        margin: 0 auto !important;
+
+        & .login-left-button {
+          margin-left: 0 !important;
+          margin-top: 1rem;
+        }
+        & .login-right-button {
+          margin-right: 0 !important;
+          margin-top: 1rem;
+        }
+      }
+    }
+  }
+  .signup {
+    & .signup-form {
+      height: 100vh !important;
+      & .signup-field {
+        margin: 0 auto !important;
+      }
+      & .signup-button {
+        margin: 0 auto !important;
+
+        & .signup-left-button {
+          margin-left: 0 !important;
+          margin-top: 1rem;
+        }
+        & .signup-right-button {
+          margin-right: 0 !important;
+          margin-top: 1rem;
+        }
+      }
+    }
+  }
+}
+@media screen and (max-width: 960px) {
+  .login {
+    & .login-form {
+      width: 95% !important;
+      & .login-right-button {
+        width: 70% !important;
+      }
+      & .login-left-button {
+        width: 70% !important;
+      }
+    }
+  }
+  .signup {
+    & .signup-form {
+      width: 95% !important;
+      & .signup-right-button {
+        width: 70% !important;
+      }
+      & .signup-left-button {
+        width: 70% !important;
+      }
+    }
+  }
+}
+@media screen and (max-width: 600px) {
+  .login {
+    & .login-form {
+      & .login-right-field {
+        margin-bottom: 1rem !important;
+        width: 90% !important;
+      }
+      & .login-left-field {
+        margin: 0 !important;
+        width: 90% !important;
+      }
+      & .login-right-button {
+        margin-bottom: 1rem !important;
+        width: 90% !important;
+      }
+      & .login-left-button {
+        margin-bottom: 1rem !important;
+        width: 90% !important;
+      }
+    }
+    & .login-image {
+      margin-bottom: 1.4rem;
+    }
+  }
+  .signup {
+    & .signup-form {
+      & .signup-right-field {
+        margin-bottom: 1rem !important;
+        width: 90% !important;
+      }
+      & .signup-left-field {
+        margin: 0 !important;
+        width: 90% !important;
+      }
+      & .signup-right-button {
+        margin-bottom: 1rem !important;
+        width: 90% !important;
+      }
+      & .signup-left-button {
+        margin-bottom: 1rem !important;
+        width: 90% !important;
+      }
+    }
+  }
+  .upload-image {
+    padding-bottom: 7rem;
+    & .logout-button {
+      margin: 0 auto;
+      margin-top: 1rem;
+    }
+    & .user-info {
+      width: 100%;
+      text-align: center;
+      margin-bottom: 1rem;
+    }
+    & .gallary {
+      font-size: 1rem !important;
+    }
+    & .card-image {
+      margin: 0 auto;
+    }
+    & .user-card {
+      width: 100% !important;
+    }
+  }
+}

@@ -1,0 +1,58 @@
+@import "variables";
+@import "responsive";
+.login {
+  height: 95vh;
+
+  display: flex;
+  align-items: center;
+  justify-content: center;
+
+  & .login-form {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+
+    height: 27rem;
+    margin: 0 auto;
+    background-color: $logincolor;
+    border-radius: 15px;
+    box-shadow: 0 0 4px 0 $gray;
+    & .login-field {
+      text-align: center;
+
+      & .login-left-field {
+        width: 70%;
+        background-color: $whitesmoke;
+      }
+      & .login-right-field {
+        width: 70%;
+        margin-top: 2rem;
+        background-color: $whitesmoke;
+      }
+    }
+    & .login-button {
+      text-align: center;
+      margin-top: 3rem;
+      & .login-left-button {
+        width: 50%;
+        margin-left: 7rem;
+        background-color: $leftbuttoncolor;
+      }
+      & .login-right-button {
+        width: 50%;
+        margin-right: 7rem;
+        background-color: $rightbuttoncolor;
+      }
+    }
+
+    & .login-image {
+      text-align: center;
+      & img {
+        height: 5rem;
+        width: 5rem;
+        border-radius: 50%;
+      }
+    }
+  }
+}

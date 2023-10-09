@@ -1,0 +1,24 @@
+@import "variables";
+.main-upload {
+  height: 100vh;
+  border: solid red;
+}
+.upload-image {
+  height: 7rem;
+  padding-top: 1rem;
+
+  background-color: $whitesmoke;
+  & .input-box {
+    border: solid 0.1px $gray;
+    border-radius: 5px;
+    box-shadow: 0 0 2px 0 $gray;
+    width: fit-content;
+    padding: 2rem 2rem;
+    margin: 0 auto;
+    & .upload-input {
+      color: $logincolor;
+      border: solid 0.1px $gray;
+      cursor: pointer;
+    }
+  }
+}
