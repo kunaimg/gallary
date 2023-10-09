@@ -119,6 +119,7 @@ function UploadImage() {
             <Button
               variant="contained"
               onClick={UploadImage}
+              className="upload-inputt"
               sx={{ backgroundColor: "#57606f", fontSize: "0.7rem", ml: 1 }}
             >
               Upload
@@ -155,7 +156,7 @@ function UploadImage() {
                       {" "}
                       <Card
                         sx={{
-                          width: { xs: 400, lg: 345 },
+                          width: { xs: 240, lg: 345 },
                           ml: 3,
                           cursor: "pointer",
                         }}
